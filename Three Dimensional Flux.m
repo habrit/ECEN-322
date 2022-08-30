@@ -33,7 +33,7 @@ Ex = eps0*(Ex + kC .* Qp .* Rx ./ R);
 Ey = eps0*(Ey + kC .* Qp .* Ry ./ R);
 Ez = eps0*(Ez + kC .* Qp .* Rz ./ R);
 E = sqrt(Ex.^2 + Ey.^2 + Ez.^2);
-%componentes x, y
+%components x, y
 u = Ex./E;
 v = Ey./E;
 w = Ez./E;
